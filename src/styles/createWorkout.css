@@ -1,0 +1,30 @@
+.createWorkout-inputs {
+    color: magenta;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.saveitButton {
+    background-color:#b1b9a2;
+    font-weight: 450;
+    margin-right: 20px;
+    width: 75px;
+}
+
+.createWorkout-inputs input {
+    background-color: #add6e9;
+    border: 20;
+    border-color: #1db2b8;
+    font-size: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    /* color: #ffffff; */
+    width: 20%;
+    margin-left: 20px;
+}
+
+.createWorkout-inputs input::placeholder {
+   color: rgb(0, 102, 255);
+ 
+}
